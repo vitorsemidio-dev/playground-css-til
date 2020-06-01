@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+img {
+  width: 48px;
+}
+
+.fa-star {
+  color: yellow
+}
