@@ -63,3 +63,18 @@ img {
   letter-spacing: 1px;
   font-weight: 600;
 }
+
+/* container width + margin */
+@media (max-width: 1120px) {
+  .container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) { 
+  .container .box {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  }
+}
