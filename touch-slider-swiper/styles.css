@@ -2,7 +2,6 @@ body {
   background: #262626;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color:#000;
   margin: 0;
   padding: 0;
   display: flex;
@@ -35,7 +34,7 @@ body {
 
 .swiper-slide .details {
   box-sizing: border-box;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .swiper-slide .details h3 {
@@ -43,10 +42,21 @@ body {
   padding: 0;
   font-size: 20px;
   text-align: center;
-  line-height: 20px;
+  color: #fff;
 }
 
-.swiper-slide .details h3 span {
-  font-size: 16px;
-  color: #f44336;
+.swiper-slide .details .power {
+  display: flex;
+  justify-content: space-between;
+}
+
+.swiper-slide .imgBox h3 .power span:nth-child(1) {
+  color: rgb(4, 238, 4);
+}
+.swiper-slide .imgBox h3 .power span:nth-child(2) {
+  color: rgb(22, 210, 243);
+}
+
+.swiper-slide .infinite span {
+  font-size: 100px !important;
 }
