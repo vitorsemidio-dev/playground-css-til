@@ -11,3 +11,11 @@
 
 ![img project](.github/testimonials-card1.png)
 ![img project](.github/testimonials-card2.png)
+
+## Price Table Ui 🤑
+
+![](https://img.shields.io/badge/Slifer-RED-red.svg)
+![Anime Name](https://img.shields.io/badge/YuGiOhGx-yellow.svg)
+![Elemental Hero](https://img.shields.io/badge/Elemental-Hero-green.svg)
+
+![](.github/price-table-ui.png)
