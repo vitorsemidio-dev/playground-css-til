@@ -19,3 +19,10 @@
 ![Elemental Hero](https://img.shields.io/badge/Elemental-Hero-green.svg)
 
 ![](.github/price-table-ui.png)
+
+## Touch Slider Swiper 👨‍🏫 🃏
+
+[SwiperJs Github](https://github.com/nolimits4web/swiper)
+
+
+![](.github/touch-slider-swiper.png)
