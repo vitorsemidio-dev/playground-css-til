@@ -36,7 +36,6 @@ section p {
   top: 0;
   right: 0;
   width: 10px;
-  height: 50%;
   background: linear-gradient(to top, #008aff, #00ffe7);
   animation: animate 5s linear infinite;
 }
