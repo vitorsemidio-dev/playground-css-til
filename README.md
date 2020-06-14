@@ -20,7 +20,13 @@
 
 ![](.github/price-table-ui.png)
 
-## Touch Slider Swiper 👨‍🏫 🃏
+## Touch Slider Swiper 🃏
+
+⚠️ It's necessary install Swiper. Run
+
+```bash
+npm install
+```
 
 [SwiperJs Github](https://github.com/nolimits4web/swiper)
 
