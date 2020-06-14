@@ -24,5 +24,10 @@
 
 [SwiperJs Github](https://github.com/nolimits4web/swiper)
 
-
 ![](.github/touch-slider-swiper.png)
+
+## Page Scroll Progress Bar 📜
+
+![](https://img.shields.io/badge/Scroll-008aff.svg) ![](https://img.shields.io/badge/Progress-00ffe7.svg)
+
+![](.github/page-scroll-progress-bar1.png)
