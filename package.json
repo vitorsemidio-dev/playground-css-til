@@ -1,0 +1,11 @@
+{
+  "name": "playground-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:vitorsemidio-dev/playground-css-til.git",
+  "author": "Vitor Emidio <vitorsemidio.96@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "swiper": "^5.4.3"
+  }
+}
