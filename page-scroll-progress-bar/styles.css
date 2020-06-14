@@ -68,3 +68,14 @@ section p {
 ::-webkit-scrollbar {
   width: 0;
 }
+
+#percent {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%) rotateZ(180deg);
+  right: 15px;
+  color: #fff;
+  font-size: 2em;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+}
