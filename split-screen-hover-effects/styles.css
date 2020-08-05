@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  background: #000;
+}
+
+section .screen {
+  position: relative;
+  flex-grow: 2;
+  display: flex;
+  overflow: hidden;
+  transition: 1s;
+}
+
+section .screen:nth-child(1) {
+  background: url('images/dbz01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section .screen:nth-child(2) {
+  background: url('images/naruto01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section .screen:nth-child(3) {
+  background: url('images/snk01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
