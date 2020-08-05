@@ -21,6 +21,14 @@ section .screen {
   transition: 1s;
 }
 
+section:hover .screen {
+  opacity: 0.1
+}
+section .screen:hover {
+  flex-grow: 5;
+  opacity: 1;
+}
+
 section .screen:nth-child(1) {
   background: url('images/dbz01.jpg');
   background-repeat: no-repeat;
