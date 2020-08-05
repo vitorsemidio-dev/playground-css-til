@@ -17,6 +17,8 @@ section .screen {
   position: relative;
   flex-grow: 2;
   display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   overflow: hidden;
   transition: 1s;
 }
@@ -45,4 +47,21 @@ section .screen:nth-child(3) {
   background: url('images/snk01.jpg');
   background-repeat: no-repeat;
   background-position: center;
+}
+
+section .screen .content {
+  position: absolute;
+  width: 400px;
+  height: auto;  
+  background: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+  transform: translateX(100%);
+  transition: 0.5s;
+  text-align: justify;
+}
+
+section .screen:hover .content {
+  transform: translateX(0);
+  transition-delay: 1s;
 }
