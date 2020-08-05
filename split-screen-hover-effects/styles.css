@@ -34,7 +34,7 @@ section .screen:hover {
 section .screen:nth-child(1) {
   background: url('images/01dbz.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left top;
 }
 
 section .screen:nth-child(2) {
@@ -46,7 +46,7 @@ section .screen:nth-child(2) {
 section .screen:nth-child(3) {
   background: url('images/03sao.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right top;
 }
 
 section .screen .content {
