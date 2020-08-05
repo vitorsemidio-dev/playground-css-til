@@ -32,19 +32,19 @@ section .screen:hover {
 }
 
 section .screen:nth-child(1) {
-  background: url('images/dbz01.jpg');
+  background: url('images/01dbz.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
 
 section .screen:nth-child(2) {
-  background: url('images/naruto01.jpg');
+  background: url('images/02snk.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
 section .screen:nth-child(3) {
-  background: url('images/snk01.jpg');
+  background: url('images/03sao.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
