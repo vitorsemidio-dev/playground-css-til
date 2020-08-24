@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #393939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    flex-direction: column;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    background: none;
+    text-transform: uppercase;
+    border: none;
+    /* overflow: hidden;  */
+
+    color: #03e9f4;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+
+button:hover {
+    color: #315b68;
+    background-color: #03e9f4;
+    box-shadow: 0 0 5px #315b68,
+                0 0 25px #315b68,
+                0 0 50px #315b68,
+                0 0 200px #315b68;
+
+}
+
+button span {
+    position: absolute;
+    display: block;
+}
+
+button span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: animate1 1s linear infinite;
+    /* animation-name: animate1;
+    animation-iteration-count: infinite;
+    animation-duration: 3s; */
+}
+
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+    50%, 100% {
+        left: 100%;
+    }
+}
+
+/* button span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+}
+button span:nth-child(3) {
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #03e9f4, transparent);
+}
+
+button span:nth-child(2) {
+    top: 0;
+    bottom: 100%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(0deg, transparent, #03e9f4);
+}
+button span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+}
+button span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+} */
