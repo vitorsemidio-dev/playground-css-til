@@ -28,6 +28,8 @@ button {
     color: #03e9f4;
     transition: 0.5s;
     letter-spacing: 4px;
+
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
 button:hover {
@@ -120,4 +122,17 @@ button span:nth-child(4) {
     50%, 100% {
         top: -100%;
     }
+}
+
+button:hover span:nth-child(1) {
+    background: linear-gradient(90deg, transparent, #315b68);
+}
+button:hover span:nth-child(2) {
+    background: linear-gradient(180deg, transparent, #315b68);
+}
+button:hover span:nth-child(3) {
+    background: linear-gradient(270deg, transparent, #315b68);
+}
+button:hover span:nth-child(4) {
+    background: linear-gradient(360deg, transparent, #315b68);
 }
