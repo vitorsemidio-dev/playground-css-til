@@ -6,13 +6,13 @@
 }
 
 body {
+    padding: 0 40px;
     background-color: #393939;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     min-height: 100vh;
     min-width: 100vw;
-    flex-direction: column;
 }
 
 button {
@@ -30,6 +30,13 @@ button {
     letter-spacing: 4px;
 
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+button:nth-child(1) {
+    filter: hue-rotate(290deg);
+}
+button:nth-child(3) {
+    filter: hue-rotate(110deg);
 }
 
 button:hover {
