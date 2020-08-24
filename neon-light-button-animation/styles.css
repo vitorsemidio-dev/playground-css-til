@@ -23,7 +23,7 @@ button {
     background: none;
     text-transform: uppercase;
     border: none;
-    /* overflow: hidden;  */
+    overflow: hidden; 
 
     color: #03e9f4;
     transition: 0.5s;
@@ -52,9 +52,6 @@ button span:nth-child(1) {
     height: 2px;
     background: linear-gradient(90deg, transparent, #03e9f4);
     animation: animate1 1s linear infinite;
-    /* animation-name: animate1;
-    animation-iteration-count: infinite;
-    animation-duration: 3s; */
 }
 
 @keyframes animate1 {
@@ -66,39 +63,58 @@ button span:nth-child(1) {
     }
 }
 
-/* button span:nth-child(1) {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #03e9f4);
-}
+
 button span:nth-child(3) {
-    top: 100%;
-    left: 0;
+    top: calc(100% - 2px);
+    right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, #03e9f4, transparent);
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: animate3 1s linear infinite;
+}
+
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+    50%, 100% {
+        right: 100%;
+    }
+
 }
 
 button span:nth-child(2) {
-    top: 0;
-    bottom: 100%;
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: animate2 1s linear infinite;
+}
+
+@keyframes animate2 {
+    0% {
+        top: -100%;
+    }
+    50%, 100% {
+        top: 100%;
+    }
+}
+
+button span:nth-child(4) {
+    top: 100%;
+    left: 0;
     width: 2px;
     height: 100%;
     background: linear-gradient(0deg, transparent, #03e9f4);
+    animation: animate4 1s linear infinite;
 }
-button span:nth-child(1) {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #03e9f4);
+
+@keyframes animate4 {
+    0% {
+        top: 100%;
+    }
+    50%, 100% {
+        top: -100%;
+    }
 }
-button span:nth-child(1) {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #03e9f4);
-} */
