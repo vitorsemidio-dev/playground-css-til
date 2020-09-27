@@ -41,3 +41,7 @@ npm install
 ## Menu Ng Cosplay
 
 ![](.github/menu-ng-cosplay.png)
+
+## Card List Ng Cosplay
+
+![](.github/card-list-ng-cosplay.png)
