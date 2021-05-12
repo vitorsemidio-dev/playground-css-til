@@ -6,6 +6,6 @@
   "author": "Vitor Emidio <vitorsemidio.96@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "swiper": "^5.4.3"
+    "swiper": "^6.5.1"
   }
 }
